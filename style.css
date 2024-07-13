@@ -15,7 +15,7 @@ body {
 }
 .container {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	width: 90%;
 }
 .card {
@@ -27,6 +27,9 @@ body {
 	padding: 2rem 1rem;
 	position: relative;
 	transition: 0.5s all ease-in-out;
+    margin-top: 150px;
+	border-radius: 1.5rem;
+	overflow: hidden;
 }
 .card:hover {
 	transform: translateY(-10px);
